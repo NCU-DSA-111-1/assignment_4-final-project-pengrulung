@@ -4,6 +4,8 @@
 
 You need to install Redis and Libev before playing this game.
 
+109503509林俐嫺/109503510龍芃如
+
 ### Install redis
 $ sudo apt update
 
