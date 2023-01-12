@@ -1,0 +1,2 @@
+Enter the following command to compile all the source codes and header files.
+gcc -o main main.c main.h oneplayer.c oneplayer.h twoplayer.c twoplayer.h hiredis.h -levent -lhiredis
