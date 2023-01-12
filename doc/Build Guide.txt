@@ -1,0 +1,24 @@
+Install Redis
+
+$ sudo apt update
+$ sudo apt install redis
+
+Install Hiredis
+
+$ git clone https://github.com/redis/hiredis.git
+$ cd hiredis
+$ make
+$ make install
+
+Install libev
+
+$ sudo apt-get install libevent-dev
+
+Compile source codes and header files
+
+$ gcc -o main main.c main.h oneplayer.c oneplayer.h twoplayer.c twoplayer.h hiredis.h -levent -lhiredis
+
+
+Enter the following command to compile all the source codes and header files.
+
+$ gcc -o main main.c main.h oneplayer.c oneplayer.h twoplayer.c twoplayer.h hiredis.h -levent -lhiredis
